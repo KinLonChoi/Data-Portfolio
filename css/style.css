@@ -1,0 +1,279 @@
+#navbar-header a:hover {
+  color: #DF711B;
+}
+
+body {
+  background-color: #3F72AF;
+  font-family: 'Noto Sans', 'Source Sans Pro', sans-serif;
+}
+
+#navbar-header {
+  font-size: 24px;
+  background-color: #112D4E;
+  padding: 0.1rem;
+}
+
+#nav-text {
+  color: #EEEEEE;
+}
+
+.welcomeimg {
+  background-image: url(../images/wall.jpg);
+  background-position: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.welcome {
+  color: #1E3163;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro'sans-serif;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.jumbotron {
+  position: relative;
+}
+
+#maincontent {
+  color: #EEEEEE;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+#maincontent a, a:link {
+  color: #DF711B;
+  text-decoration: none;
+}
+
+.refinerypic, .codingpic {
+  height: auto;
+  object-fit: cover;
+  padding-bottom: 50px;
+}
+
+.refinerypic, .whatido, .whatiwant, .codingpic {
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  padding: 50px 0;
+  align-items: center;
+}
+
+footer {
+  color: #EEEEEE;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a, a:link {
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #DF711B;
+}
+
+/* CV section */
+#cvcontent .row {
+  color: #EEEEEE;
+  align-items: baseline;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+#cvcontent h1 {
+  font-size: 2rem;
+}
+
+#cvcontent h2 {
+  font-size: 1.3rem;
+}
+
+#cvcontent h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+#cvcontent a, a:link {
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+#cvcontent a:hover {
+  color: #DF711B;
+}
+
+.education {
+  padding: 0 0 3rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.cvside {
+  padding: 20px 0;
+}
+
+.cvsection {
+  padding: 20px 60px;
+}
+
+.cvfile {
+  display: inline-block;
+  padding: 0px 150px;
+  align-content: center;
+}
+
+/*Hobbies section*/
+#hobbiescontent .row {
+  color: #EEEEEE;
+  padding: 30px 0;
+  font-size: 1.2rem;
+  align-content: center;
+}
+
+#hobbiescontent hr {
+  border-top: 3px solid;
+  color: #EEEEEE;
+}
+
+.codezoomed {
+  width: 400px;
+  height: auto;
+  padding: 0 30px;
+}
+
+.checked {
+  color: #DF711B;
+}
+
+.htmlcss, .jspython {
+  display: inline-block;
+  padding: 30px;
+}
+
+.food {
+  padding: 0 40px;
+}
+
+.egg, .noegg {
+  float: left;
+  width: 300px;
+}
+
+.eggcomment {
+  font-size: 12px;
+  clear: left;
+}
+
+.keyboard {
+  width: 500px;
+  height: auto;
+  padding: 0 30px;
+}
+
+/*Contact section*/
+#contactcontent {
+  color: #EEEEEE;
+}
+
+#contactcontent p {
+  font-size: 1.2rem;
+}
+
+/* JSPrograms section*/
+.cross {
+  text-decoration: line-through;
+}
+
+#jscontent {
+  color: #EEEEEE;
+}
+
+#jscontent div {
+  padding: 15px;
+}
+
+#jscontent p {
+  font-size: 1.2rem;
+}
+
+#dice p {
+  display: inline;
+}
+
+#dice p#roll {
+  display: block;
+}
+
+#checkbutton {
+  display: block;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .welcome {
+    font-size: 22px;
+  }
+
+  .swap {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .welcome {
+    font-size: 28px;
+  }
+
+  .swap {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .welcome {
+    font-size: 34px;
+  }
+
+  .swap {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .welcome {
+    font-size: 40px;
+  }
+
+  .swap {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .welcome {
+    font-size: 46px;
+  }
+}
